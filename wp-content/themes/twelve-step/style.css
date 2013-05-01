@@ -1,0 +1,181 @@
+/** stylesheet for the whole website
+ Theme Name: GWLP Default
+ Theme URI: www.getrichlikeapro.tk
+ Author: Just Alloys
+ Link: justalloys.tk
+*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    color:rgb(40,40,40);
+    font-family: Segoe, "SEGOE UI", Candara, "Open Sans";
+    font-size: 22px;
+}
+
+#top, #buy, p, .inlist, footer{
+    width: 90%;
+    border: 1px solid rgb(200,200,200);
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-align: center;
+}
+#top{
+    border: 0px;
+}
+p{
+    border: 0px;
+}
+#banner{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(227,74,40);
+    text-align: center;
+    padding-top: 50px;
+}
+.splitter{
+    color: rgba(255,255,255,0);
+    background-image: url(images/separator.png);
+    background-repeat: no-repeat;
+    font-size: 20px;
+    margin-left: 6px;
+    margin-right: 6px;
+    width: 32px;
+}
+.xplode{
+    font-size: 35px;
+    color: rgb(160,160,160);
+}
+.format-description{
+    font-size: 18px;
+}
+.inlist{
+    border: 0px;
+    padding-left: none;
+    padding-right: none;
+}
+.inlist ul{
+    list-style: none;
+}
+.inlist li{
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    width: 25%;
+    height: 100px;
+    padding: 25px;
+    border: 1px solid rgb(155,155,155);
+    background-color: rgb(230,230,230);
+    display: block;
+}
+.inlist li:hover{
+    border: 1px solid rgb(277,74,40);
+    background-color: rgb(277,74,40);
+}
+.orange-highlight{
+    color: rgb(200,76,0);
+}
+.grey-back{
+    background-color: rgb(200,200,200);
+    width: 100%;
+}
+.button{
+    color: #fff;
+    background-color: #781096;
+    padding-left: 13px;
+    padding-right:  7px;
+    padding-bottom: 15px;
+    padding-top: 12px;
+}
+.button a{
+    text-decoration: none;
+    color: #fff;
+}
+#buy{
+    padding-top: 100px;
+    border: 0px;
+    border-top: 1px solid #777777;
+}
+footer{
+    font-size: 14px;
+    margin-top: 110px;
+    border: 0px;
+    width: 100%;
+    background-color: rgb(0,0,0);
+}
+footer a{
+    color:#781096;
+}
+.error{
+    width:100%;
+    background-color: rgb(200,76,40);
+    text-shadow: 1px 1px 1px rgba(30,30,30,.6);
+}
+.centererror{
+    text-align: center;
+    margin-top: 16%;
+    padding:30px;
+}
+.very-bottom{
+    position: fixed;
+    bottom:0px;
+}
+.paymentoption{
+    display: inline;
+    padding:7px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(50,50,255);
+    color:white;
+    font-size: 18px;
+}.paymentoption a{
+    text-decoration: none;
+    color:#fff;
+}
+#content-thanks{
+    background-color: rgb(227,74,40);
+    margin-top: 70px;
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+}
+#content-thanks a{
+    color:#fff;
+}
+.cover{
+    margin:20px;
+    width:20%;
+    display: inline;
+    float: left;
+}
+.cover img{
+    width:100%;
+}
+#list-of-books{
+    padding: 50px;
+    background-color:rgb(250,250,250);
+}
+#list-of-books *{
+    text-align: left;
+}
+#list-of-books #holder{
+    width:90%;
+    margin: auto;
+}
+.book{
+    border-top: 1px solid rgb(230,230,230);
+    margin-top: 30px;
+}
+.title{
+    color:rgb(150,150,150);
+    text-decoration: underline;
+    font-size:30px;
+}
+.book-description{
+    font-size: 18px;
+    text-align: left;
+}
